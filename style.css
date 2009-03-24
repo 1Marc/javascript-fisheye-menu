@@ -1,0 +1,44 @@
+/* CSS Document */
+body {
+	padding: 0;
+	margin: 0;
+	background: #eee;
+}
+#wrap {
+	margin: 0 auto;
+	width: 500px;
+	padding: 10px;
+	border: 1px solid #bbb;
+	text-align: center;
+	background: #EEEEE1;
+}
+#fisheye_menu {
+	list-style: none;
+	padding: 0;
+	margin: 10px;
+	height: 81px;
+}
+#fisheye_menu li {
+	position: relative;
+	display: block;
+	float: left;
+}
+#fisheye_menu span {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	text-align: center;
+	width: 79px;
+	padding: 1px;
+	margin: 0;
+	border: solid 1px #bbb;	
+	color: #333;
+	background: #eee;
+}
+#fisheye_menu a {
+	text-decoration: none;
+}
+#fisheye_menu img {
+	border: 0;
+	vertical-align: top;
+}
